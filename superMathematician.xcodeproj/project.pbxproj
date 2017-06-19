@@ -15,6 +15,8 @@
 		8120FB861EF244D100F5FE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8120FB841EF244D100F5FE74 /* LaunchScreen.storyboard */; };
 		8120FB911EF244D100F5FE74 /* superMathematicianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8120FB901EF244D100F5FE74 /* superMathematicianTests.swift */; };
 		8120FB9C1EF244D100F5FE74 /* superMathematicianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8120FB9B1EF244D100F5FE74 /* superMathematicianUITests.swift */; };
+		8120FBAA1EF26EE500F5FE74 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8120FBA91EF26EE500F5FE74 /* mainView.swift */; };
+		8120FBAC1EF26F4E00F5FE74 /* highscoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8120FBAB1EF26F4E00F5FE74 /* highscoresView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8120FB971EF244D100F5FE74 /* superMathematicianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = superMathematicianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8120FB9B1EF244D100F5FE74 /* superMathematicianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superMathematicianUITests.swift; sourceTree = "<group>"; };
 		8120FB9D1EF244D100F5FE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8120FBA91EF26EE500F5FE74 /* mainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		8120FBAB1EF26F4E00F5FE74 /* highscoresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = highscoresView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				8120FB781EF244D100F5FE74 /* AppDelegate.swift */,
 				8120FB7A1EF244D100F5FE74 /* ViewController.swift */,
 				8120FB7C1EF244D100F5FE74 /* Main.storyboard */,
+				8120FBA91EF26EE500F5FE74 /* mainView.swift */,
+				8120FBAB1EF26F4E00F5FE74 /* highscoresView.swift */,
 				8120FB821EF244D100F5FE74 /* Assets.xcassets */,
 				8120FB841EF244D100F5FE74 /* LaunchScreen.storyboard */,
 				8120FB871EF244D100F5FE74 /* Info.plist */,
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8120FB7B1EF244D100F5FE74 /* ViewController.swift in Sources */,
+				8120FBAA1EF26EE500F5FE74 /* mainView.swift in Sources */,
+				8120FBAC1EF26F4E00F5FE74 /* highscoresView.swift in Sources */,
 				8120FB791EF244D100F5FE74 /* AppDelegate.swift in Sources */,
 				8120FB811EF244D100F5FE74 /* superMathematician.xcdatamodeld in Sources */,
 			);
